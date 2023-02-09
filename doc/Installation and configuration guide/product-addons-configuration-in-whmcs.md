@@ -1,0 +1,17 @@
+# Product Addons Configuration in WHMCS
+
+#####  [Order now](https://panel.puqcloud.com/index.php?rp=/store/whmcs-module-mikrotik-vpn) | [Dowload](https://download.puqcloud.com/WHMCS/servers/PUQ_WHMCS-Mikrotik-VPN/) | [FAQ](https://faq.puqcloud.com/)
+
+##### In order to provide customers with the opportunity to purchase additional traffic, use Product Addons
+
+Create new **Product Addons** in the WHMCS system.
+
+```
+System Settings->Product Addons->Add New Addon
+```
+
+[![image-1659964339183.png](https://doc.puq.info/uploads/images/gallery/2022-08/scaled-1680-/image-1659964339183.png)](https://doc.puq.info/uploads/images/gallery/2022-08/image-1659964339183.png)
+
+- **Product Type:** Other
+- **Module Name:** PUQ Mikkrotik VPN
+- **Traffic in GB :** The amount of traffic that will be added after payment by the client

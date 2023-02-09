@@ -1,0 +1,68 @@
+# Setup guide: WHMCS preparation and configuration
+
+#####  [Order now](https://panel.puqcloud.com/index.php?rp=/store/whmcs-module-mikrotik-vpn) | [Dowload](https://download.puqcloud.com/WHMCS/servers/PUQ_WHMCS-Mikrotik-VPN/) | [FAQ](https://faq.puqcloud.com/)
+
+##### 1. Download the latest version of the module.
+
+PHP 8.1
+
+```Powershell
+wget http://download.puqcloud.com/WHMCS/servers/PUQ_WHMCS-Mikrotik-VPN/PUQ_WHMCS-Mikrotik-VPN-latest.zip
+```
+
+PHP 7.4
+
+```Powershell
+wget http://download.puqcloud.com/WHMCS/servers/PUQ_WHMCS-Mikrotik-VPN/php74/PUQ_WHMCS-Mikrotik-VPN-latest.zip
+```
+
+<p class="callout info">All versions are available via link: [http://download.puqcloud.com/WHMCS/servers/PUQ\_WHMCS-Mikrotik-VPN/](http://download.puqcloud.com/WHMCS/servers/PUQ_WHMCS-Mikrotik-VPN/)</p>
+
+##### 2. Unzip the archive with the module.
+
+```Powershell
+unzip PUQ_WHMCS-Mikrotik-VPN-latest.zip 
+```
+
+##### 3. Copy "puqMikrotikVPN" to "WHMCS\_WEB\_DIR/modules/servers/"
+
+##### 4. Create new server Mikrotik in WHMCS (System Settings-&gt;Products/Services-&gt;Servers)
+
+```
+System Settings->Servers->Add New Server
+```
+
+- Enter the correct **Name** and **Hostname**
+- In the **"Assigned IP Addresses field"**, enter a list of IP addresses that will be issued to users.
+
+[![image-1659960751104.png](https://doc.puq.info/uploads/images/gallery/2022-08/scaled-1680-/image-1659960751104.png)](https://doc.puq.info/uploads/images/gallery/2022-08/image-1659960751104.png)
+
+- In the **Server Details** section, select the "**PUQ Mikrotik VPN**" module and enter the correct **username** and **password** for the **Mikrotik** router.
+- To check, click the **"Test connection"** button
+
+[![image-1659961088379.png](https://doc.puq.info/uploads/images/gallery/2022-08/scaled-1680-/image-1659961088379.png)](https://doc.puq.info/uploads/images/gallery/2022-08/image-1659961088379.png)
+
+##### 5. Create a new Products/Services
+
+```
+System Settings->Products/Services->Create a New Product
+```
+
+In the **Module settings** section, select the **"PUQ mikrotik VPN"** module
+
+[![image-1659962653210.png](https://doc.puq.info/uploads/images/gallery/2022-08/scaled-1680-/image-1659962653210.png)](https://doc.puq.info/uploads/images/gallery/2022-08/image-1659962653210.png)
+
+- **License key:** A pre-purchased license key for the **"PUQ Mikrotik VPN"** module. For the module to work correctly, the key must be active
+- **Comment PREFIX:** The prefix that will be added to the VPN user's comment on the Mikrotik router
+- **Profile:** PPP secret profile on mikrotik router
+- **Service:** A service that will be available to a VPN user on a Mikrotik router
+- **Bandwidth Download:** Download Bandwidth Limit in M/s
+- **Bandwidth Upload:** Upload Bandwidth Limit M/s
+- **Traffic One Time/Monthly in GB/Traffic Quarterly in GB/Traffic Semi-Annually in GB/Traffic Annually in GB/Traffic Biennially in GB/Traffic Triennially in GB :** Packet traffic that will be added to the balance every billing period, respectively
+- **Save traffic history (days):** The number of days it takes to save user traffic usage statistics
+- **User notification traffic limit email template:** The template of the letter that will be sent to the client if the remaining traffic is less than XXX
+- **Notification traffic remainder less than X GB:** The amount of traffic on the client's balance below which a notification will be sent.
+- **Suspend exceeding traffic limit email template:** The template of the letter that will be sent to the client if his traffic balance is 0 or less 0
+- **Link to instruction:** Link to the instruction, if filled out, it will be reflected in the client area
+- **Support PPtP/Support L2TP:** If checked, it will be reflected in the client zone
+- **L2TP IPSec PSK key:** it will be reflected in the client zone
