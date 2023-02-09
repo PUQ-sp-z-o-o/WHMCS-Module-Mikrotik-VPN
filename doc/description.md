@@ -41,11 +41,11 @@ Available options in the client panel:
 
 - - - - - -
 
-<p class="callout warning">WHMCS minimal version: 8 +</p>
+>WHMCS minimal version: 8 +
 
-<p class="callout warning">Mikrotik minimal version: 7 +</p>
+>Mikrotik minimal version: 7 +
 
-<p class="callout info">The settings of the whmcs module when it comes to upload and download speeds register the opposite values in the mikrotik router (e.g. download speed in whmcs 1mb = upload speed in mikrotirk 1mb). This is due to the fact that from the point of view of Mikrotik, the traffic is incoming, and from the point of view of the VPN client, this is outgoing traffic.</p>
+>The settings of the whmcs module when it comes to upload and download speeds register the opposite values in the mikrotik router (e.g. download speed in whmcs 1mb = upload speed in mikrotirk 1mb). This is due to the fact that from the point of view of Mikrotik, the traffic is incoming, and from the point of view of the VPN client, this is outgoing traffic.
 
 [![image-1659960355259.png](https://doc.puq.info/uploads/images/gallery/2022-08/scaled-1680-/image-1659960355259.png)](https://doc.puq.info/uploads/images/gallery/2022-08/image-1659960355259.png)
 
