@@ -1,0 +1,19 @@
+# Traffic statistics
+
+#####  [Order now](https://panel.puqcloud.com/index.php?rp=/store/whmcs-module-mikrotik-vpn) | [Dowload](https://download.puqcloud.com/WHMCS/servers/PUQ_WHMCS-Mikrotik-VPN/) | [FAQ](https://faq.puqcloud.com/)
+
+Traffic statistics shows the customer's traffic on a daily basis, broken down into incoming and outgoing.
+
+Traffic usage statistics is available in the menu item **"Traffic statistics"**
+
+[![image-1659958539654.png](https://doc.puq.info/uploads/images/gallery/2022-08/scaled-1680-/image-1659958539654.png)](https://doc.puq.info/uploads/images/gallery/2022-08/image-1659958539654.png)
+
+##### **Traffic Usage Charts**
+
+[![image-1659958453921.png](https://doc.puq.info/uploads/images/gallery/2022-08/scaled-1680-/image-1659958453921.png)](https://doc.puq.info/uploads/images/gallery/2022-08/image-1659958453921.png)
+
+#####  
+
+##### **Traffic usage table**
+
+[![image-1659958484076.png](https://doc.puq.info/uploads/images/gallery/2022-08/scaled-1680-/image-1659958484076.png)](https://doc.puq.info/uploads/images/gallery/2022-08/image-1659958484076.png)

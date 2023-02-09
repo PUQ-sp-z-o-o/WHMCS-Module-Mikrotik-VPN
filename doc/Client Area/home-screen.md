@@ -1,0 +1,26 @@
+# Home screen
+
+#####  [Order now](https://panel.puqcloud.com/index.php?rp=/store/whmcs-module-mikrotik-vpn) | [Dowload](https://download.puqcloud.com/WHMCS/servers/PUQ_WHMCS-Mikrotik-VPN/) | [FAQ](https://faq.puqcloud.com/)
+
+The end customer, after logging in to his own customer panel, has access to the following information and options:
+
+- Link to the user manual (*which was defined by the administrator when setting up the service.*).
+- Valid VPN server address
+- Information about available VPN protocols
+- Access options
+- Connection status
+- Balance traffic
+- Information about the bandwidth limit.
+- Drop-down menu with option to buy additional traffic.
+
+##### **Screenshot view when the service is offline**
+
+[![image-1659955934216.png](https://doc.puq.info/uploads/images/gallery/2022-08/scaled-1680-/image-1659955934216.png)](https://doc.puq.info/uploads/images/gallery/2022-08/image-1659955934216.png)
+
+##### **Screenshot view when the service is online**
+
+[![image-1659956293979.png](https://doc.puq.info/uploads/images/gallery/2022-08/scaled-1680-/image-1659956293979.png)](https://doc.puq.info/uploads/images/gallery/2022-08/image-1659956293979.png)
+
+##### **Screenshot view when the account is blocked**
+
+[![image-1659957830311.png](https://doc.puq.info/uploads/images/gallery/2022-08/scaled-1680-/image-1659957830311.png)](https://doc.puq.info/uploads/images/gallery/2022-08/image-1659957830311.png)
