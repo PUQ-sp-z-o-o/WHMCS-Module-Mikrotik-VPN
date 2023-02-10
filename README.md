@@ -1,10 +1,12 @@
-# -WHMCS-Module-Mikrotik-VPN
-Providing a VPN service for businesses using Mikrotik via the WHMCS module.
+# WHMCS-Module-Mikrotik-VPN
+The module is intended as an opportunity for IT companies to expand their offer for customers by offering paid VPN accounts. After installation, the module will fully manage the creation, edition, and suspension of VPN accounts and interact with the WHMCS billing system, exchanging data needed for settlements with customers, activations or service blocking.
+
+Initial assumptions: the company uses WHMCS and owns or is able to install Mikrotik routers. Mikrotik routers are necessary to provide VPN service (managing Mikrotik secrets users). WHMCS is necessary to manage the VPN service.
 # Description
 
-#####  [Order now](https://panel.puqcloud.com/index.php?rp=/store/whmcs-module-mikrotik-vpn) | [Dowload](https://download.puqcloud.com/WHMCS/servers/PUQ_WHMCS-Mikrotik-VPN/) | [Forum](https://forum.puqcloud.com/viewforum.php?f=5)
+#####  [Order now](https://panel.puqcloud.com/index.php?rp=/store/whmcs-module-mikrotik-vpn) | [Dowload](https://download.puqcloud.com/WHMCS/servers/PUQ_WHMCS-Mikrotik-VPN/) | [FAQ](https://faq.puqcloud.com/)
 
-##### The module, fully installed and correctly implemented in the system, offers the following functionalities.
+### The module, fully installed and correctly implemented in the system, offers the following functionalities.
 
 Module Functions:
 
@@ -43,9 +45,11 @@ Available options in the client panel:
 
 - - - - - -
 
-<p class="callout warning">WHMCS minimal version: 8 +</p>
+>WHMCS minimal version: 8 +
 
-<p class="callout warning">Mikrotik minimal version: 7 +</p>
+>Mikrotik minimal version: 7 +
+
+>The settings of the whmcs module when it comes to upload and download speeds register the opposite values in the mikrotik router (e.g. download speed in whmcs 1mb = upload speed in mikrotirk 1mb). This is due to the fact that from the point of view of Mikrotik, the traffic is incoming, and from the point of view of the VPN client, this is outgoing traffic.
 
 [![image-1659960355259.png](https://doc.puq.info/uploads/images/gallery/2022-08/scaled-1680-/image-1659960355259.png)](https://doc.puq.info/uploads/images/gallery/2022-08/image-1659960355259.png)
 
