@@ -2,11 +2,20 @@
 
 #####  [Order now](https://puqcloud.com/index.php?rp=/store/whmcs-module-mikrotik-vpn) | [Dowload](https://download.puqcloud.com/WHMCS/servers/PUQ_WHMCS-Mikrotik-VPN/) | [FAQ](https://faq.puqcloud.com/)
 
+### v1.3.5 Released 11-10-2023
+
+1. Support **WHMCS v8.8.0**
+2. Translations added/updated **(Arabic, Azerbaijani, Catalan, Chinese, Croatian, Czech, Danish, Dutch, English, Estonian, Farsi, French, German, Hebrew, Hungarian, Italian, Macedonian, Norwegian, Polish,  Romanian, Russian, Spanish, Swedish, Turkish, Ukrainian)**
+
+- - - - - -
+
 ### v1.3 Released 04-02-2023
 
 1. Changed client side. Added intuitive icons.
 2. Better code adaptation for PHP 8.1
 3. Bug fixed (Attempt to assign property "bytes\_upload" on string in...puqMikrotikVPN.php:632)
+
+- - - - - -
 
 ### v1.2 Released 04-01-2023
 
