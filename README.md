@@ -18,7 +18,7 @@ Module Functions:
 - Ability to buy additional traffic
 - Traffic usage statistics
 - Auto-Limiting the use of the service when the traffic limit is exhausted.
-- Module supports multilingualism
+- Module supports multilingualism **(Arabic, Azerbaijani, Catalan, Chinese, Croatian, Czech, Danish, Dutch, English, Estonian, Farsi, French, German, Hebrew, Hungarian, Italian, Macedonian, Norwegian, Polish,  Romanian, Russian, Spanish, Swedish, Turkish, Ukrainian)**
 - Link to instructions for setting up the service in the client area.
 - User email notification traffic limit
 - Suspend exceeding traffic limit email notification
