@@ -4,7 +4,9 @@ The module is intended as an opportunity for IT companies to expand their offer 
 Initial assumptions: the company uses WHMCS and owns or is able to install Mikrotik routers. Mikrotik routers are necessary to provide VPN service (managing Mikrotik secrets users). WHMCS is necessary to manage the VPN service.
 # Description
 
-#####  [Order now](https://puqcloud.com/index.php?rp=/store/whmcs-module-mikrotik-vpn) | [Dowload](https://download.puqcloud.com/WHMCS/servers/PUQ_WHMCS-Mikrotik-VPN/) | [FAQ](https://faq.puqcloud.com/)
+## Mikrotik VPN module **[WHMCS](https://puqcloud.com/link.php?id=77)** 
+
+#####  [Order now](https://puqcloud.com/index.php?rp=/store/whmcs-module-mikrotik-vpn) | [Download](https://download.puqcloud.com/WHMCS/servers/PUQ_WHMCS-Mikrotik-VPN/) | [FAQ](https://faq.puqcloud.com/)
 
 ### The module, fully installed and correctly implemented in the system, offers the following functionalities.
 
